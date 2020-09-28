@@ -1,0 +1,15 @@
+.TitleClass {
+  font-size: 40px;
+}
+.Main {
+  border-radius: 3px;
+  background-color: #ffffff;
+  color: "#5a1370";
+  font-size: 20px;
+  cursor: pointer;
+  border-color:black;
+  border-width: 1px;
+}
+.Main:hover {  
+  border-color:grey;
+}

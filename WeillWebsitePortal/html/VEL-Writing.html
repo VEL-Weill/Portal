@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+var seconds = 0
+var minutes = 0
+function startTime() {
+	seconds+=1
+  if(seconds == 60){
+  seconds = 0
+  minutes+=1
+  if(minutes == 30){
+  alert("If you haven't already submitted your narrative writing please wrap up shortly. If you are currently working on the self reports please ignore this message.")
+  minutes = 0;
+  }
+  }
+  var t = setTimeout(startTime, 1000);
+}
+var t = setTimeout(startTime, 1000);
+</script>
+</head>
+<br><br>
+<iframe width = 100% height = 1000 src = "https://redcap.ctsc.weill.cornell.edu/redcap_protocols/surveys/?s=K7FCANHJRN" width = 1300 height = 500>
+</body>
+</html>
+https://juliuswon3.wixsite.com/weilstudy/music

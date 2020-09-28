@@ -1,0 +1,2 @@
+To run the pages locally off your PC, double click the "VEL-Main.html" file and open it in any browser. (The "Contact us" button will work differently depending on the OS, email service, and browser)
+Please let me know if you have any questions!
