@@ -28,6 +28,9 @@ location.replace("../html/VEL-About.html")
 if (functionName == 2){
   location.replace(href = "../html/VEL-Email.html")
 }
+if (functionName == 3){
+  location.replace(href = "https://redcap.ctsc.weill.cornell.edu/redcap_protocols/surveys/?s=MX8NPWMDHT")
+}
 
 if (functionName == 3){
   location.replace("../html/VEL-Main.html")
