@@ -14,7 +14,7 @@ function opennn(){
   window.open("../html/VEL-Writing.html")
   }
   else{
-  if("TS" === mor.toUpperCase)
+  if("TS" == mor.toUpperCase)
   {
       window.open("https://redcap.ctsc.weill.cornell.edu/redcap_protocols/surveys/?s=MX8NPWMDHT")
 
