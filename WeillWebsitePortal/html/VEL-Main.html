@@ -18,6 +18,7 @@
 <div class="tab">
   <button class="tablinks" onclick="OpenTab(3)">Home</button>
   <button class="tablinks" onclick="OpenTab(1)">About the Study</button>
+  <button class="tablinks" onclick="OpenTab(4)">Phase II</button>
   <button class="tablinks" onclick="OpenTab(2)">Contact us</button>
   <image class = main src = "https://brand.weill.cornell.edu/sites/default/files/WCM_MB_LOGO_HZSS2L_CLR_RGB.png" width = 150>
 </div>
@@ -29,7 +30,8 @@
 <span class = Main id="results">If you accidently close any tab press Control+Shift+T</span>
 <t></t></p>
 <image src= ../res/healthcare-workers-covid-19-750x500.jpg height =250></image><br>
-<p class="Main">Please enter your code</p>
+<input class = Main type="button" onClick = 'window.open("https://redcap.ctsc.weill.cornell.edu/redcap_protocols/surveys/?s=7FE87XTXHL")' value = "Informed Consent Form"></input>
+<p class="Main">Please enter your id</p>
 <input class = Main type = text id = Code width = 10>
 <input class = Main type = button onClick = Start() value = submit><br><br>
 <script src = "../Js/Platform.js"></script>
