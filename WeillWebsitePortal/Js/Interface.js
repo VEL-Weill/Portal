@@ -37,4 +37,8 @@ if (functionName == 2){
 if (functionName == 3){
   location.replace("../html/VEL-Main.html")
 }
+if (functionName == 4){
+  location.replace("../html/VEL-Phase-Two-Main.html")
+}
+
   }
